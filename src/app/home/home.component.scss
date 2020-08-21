@@ -1,0 +1,74 @@
+.content {
+    position: relative;
+}
+.search {
+    position: absolute;  
+    top: 30%;
+    width: 100%;
+    height: 3.5rem;
+    z-index: 3;
+    
+    // border: 1px solid black;
+    background-color: whitesmoke;
+}
+input {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    padding: 5px 10px;
+    // margin: 5px 0;
+    transform: translate(-50%, -50%);
+    // width: 400px;
+    max-width: 440px;    
+    height: 40px;
+}
+.text {
+    // background-color: red;
+    padding: 30px 5px 5px 5px;
+}
+.text h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+.text p {
+    font-size: 0.9rem;
+}
+.image {
+    width: 100%;
+}
+span {
+    position: absolute;
+    left: 30%;
+    top: 20px;
+}
+mat-card {
+    width: 250px;
+}
+mat-card img {
+    
+    height: auto;
+    background-size: cover;
+}
+.overlay {
+    position: absolute;
+    top: 65%;    
+}
+
+.overlay p:nth-child(1) {
+    background-color: #fdea00;
+    font-family: cursive;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 5px 5px 5px 30px;
+}
+.overlay p:nth-child(3),
+.overlay p:nth-child(4) {
+    clear: both;
+    float: left;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 5px 10px 5px 30px;
+}

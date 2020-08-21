@@ -1,0 +1,11 @@
+<mat-toolbar>
+    <img src="../../assets/images/logo.png" routerLink='/home' alt="">
+    <span class="flex"></span>
+    <div fxLayout='row' fxLayoutGap='5px'>
+        <button mat-flat-button routerLinkActive='active' routerLink = '/aboutus'>ABOUT US</button>
+        <button mat-flat-button routerLinkActive='active' routerLink = '/contactus'>CONTACT US</button>
+        <button mat-flat-button routerLinkActive='active' (click) = 'login()'>LOGIN</button>
+    </div>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

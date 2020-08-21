@@ -1,0 +1,32 @@
+.containers {
+    // height: 120%;
+    height: auto;
+}
+.header {
+    height: 270px;
+    width: 100%;
+    background-color: #4141ff;
+    color: white;
+    text-align: center;
+}
+
+form {
+    min-width: 300px;
+    width: 40vw;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    top: -50px;
+    padding: 40px 20px;
+    box-shadow: 2px 2px 50px 2px #4141ff;
+}
+.text {
+    padding: 20px 10px;
+}
+.text h1 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+a {
+    color: rgb(0, 0, 0);
+}
