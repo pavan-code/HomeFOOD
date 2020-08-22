@@ -25,6 +25,7 @@ import { ChefsComponent } from './chefs/chefs.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component'
 import { MatDialogModule } from '@angular/material/dialog';
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,10 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatFormFieldModule,
     MatCardModule,
     MatDialogModule,
-    MatIconModule
+    MatIconModule,
+    AgmCoreModule.forRoot({
+      apiKey : ''
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
