@@ -1,1 +1,18 @@
-<p>cuisines works!</p>
+<div fxLayout='row wrap' fxLayoutGap='15px' fxLayoutAlign='space-around center'>
+    <mat-card fxFlex fxFlexFill *ngFor = "let dish of dishes; let i =index">
+        <mat-card-header>
+        <mat-card-title> Dish {{i + 1}} </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src={{dish.image}} alt="">
+    <mat-card-content>
+        <p>Description of dish {{i + 1 }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-flat-button><mat-icon color='accent'>favorite_outline</mat-icon></button>
+        <button mat-flat-button><mat-icon color='primary'>share</mat-icon></button>
+        <span class="flex"></span>
+        <button mat-flat-button><mat-icon color='accent'>shopping_cart</mat-icon></button>
+    </mat-card-actions>
+</mat-card>
+</div> 
+<br><br><br>

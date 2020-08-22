@@ -1,3 +1,5 @@
+import { ChefsComponent } from './chefs/chefs.component';
+import { CuisinesComponent } from './cuisines/cuisines.component';
 import { HomeComponent } from './home/home.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { NgModule } from '@angular/core';
@@ -10,6 +12,8 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'aboutus', component: AboutusComponent },
   { path: 'contactus', component: ContactusComponent },
+  { path: 'cuisines', component: CuisinesComponent},
+  { path: 'chefs', component: ChefsComponent },
   { path: '**',redirectTo: 'home' }
 ];
 

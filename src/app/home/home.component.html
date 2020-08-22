@@ -1,54 +1,68 @@
-<div>
-  <div class="content">
-    <div class="image">
-      <img src="./assets/images/home.jpg" alt="home page" width="100%" />
-    </div>
-    <div class="search">        
-        <input class="form-control" type="text" placeholder="Search for Favorite food or Chefs"/>     
+<div class="home">
+  <div>
+    <div class="content">
+      <div class="image">
+        <img src="./assets/images/home.jpg" alt="home page" width="100%" />
+      </div>
+      <div class="search">
+        <input
+          class="form-control"
+          type="text"
+          placeholder="Search for Favorite food or Chefs"
+        />
         <!-- <span class="fa fa-search icon"></span> -->
-    </div>
-    <div class="overlay">
-        <p>ORDER DELICIOUS HOMEMADE FOOD<p>
+      </div>
+      <div class="overlay">
+        <p>ORDER DELICIOUS HOMEMADE FOOD</p>
+        <p></p>
         <p>Look for chefs cooking authentic homemade dishes around</p>
         <p>you and choose from a wide variety of cuisines!</p>
+      </div>
     </div>
   </div>
-</div>
-<br><br><br><br><br>
-<div class="container">
+  <br /><br /><br /><br /><br />
+  <div class="container">
     <div class="container text">
-        <h1>HOW IT WORKS</h1>
-        <p>Enter Address And Your Dishes <b>Enjoy Your Meal</b></p>
+      <h1>HOW IT WORKS</h1>
+      <p>Enter Address And Your Dishes <b>Enjoy Your Meal</b></p>
     </div>
-    <div class="cards" fxLayout='row' fxLayout.xs='column' fxLayoutGap='20px' fxLayoutAlign='space-between center'>
-        <mat-card>
-            <mat-card-header>
-                <mat-card-title>CUISINES</mat-card-title>
-            </mat-card-header>
-            <img mat-card-image src="./assets/images/cuisine.jpg" alt="">
-            <mat-card-content>
-                <p>We create design based on your need.</p>
-            </mat-card-content>
-        </mat-card>
+    <div
+      class="cards"
+      fxLayout="row"
+      fxLayout.xs="column"
+      fxLayoutGap="20px"
+      fxLayoutAlign="space-between center"
+    >
+      <mat-card routerLink = '/cuisines'>
+        <mat-card-header>
+          <mat-card-title>CUISINES</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./assets/images/cuisine.jpg" alt="" />
+        <mat-card-content>
+          <p>We create design based on your need.</p>
+        </mat-card-content>
+      </mat-card>
 
-        <mat-card>
-            <mat-card-header>
-                <mat-card-title>OUR CHEFS</mat-card-title>
-            </mat-card-header>
-            <img mat-card-image src="./assets/images/chefs.jpg" alt="">
-            <mat-card-content>
-                <p>Our coders assure you that eveything goes smooth.</p>
-            </mat-card-content>
-        </mat-card>
+      <mat-card routerLink = '/chefs'>
+        <mat-card-header>
+          <mat-card-title>OUR CHEFS</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./assets/images/chefs.jpg" alt="" />
+        <mat-card-content>
+          <p>Our coders assure you that eveything goes smooth.</p>
+        </mat-card-content>
+      </mat-card>
 
-        <mat-card>
-            <mat-card-header>
-                <mat-card-title>TESTIMONIALS</mat-card-title>
-            </mat-card-header>
-            <img mat-card-image src="./assets/images/testimonial.jpg" alt="">
-            <mat-card-content>
-                <p>Final product have reach your customers.</p>
-            </mat-card-content>
-        </mat-card>
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>TESTIMONIALS</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="./assets/images/testimonial.jpg" alt="" />
+        <mat-card-content>
+          <p>Final product have reach your customers.</p>
+        </mat-card-content>
+      </mat-card>
     </div>
+    <br><br><br>
+  </div>
 </div>

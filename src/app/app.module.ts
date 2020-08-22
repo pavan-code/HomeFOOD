@@ -9,6 +9,7 @@ import { FlexLayoutModule } from '@angular/flex-layout'
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
 
 // ============================================================
 import { AppRoutingModule } from './app-routing.module';
@@ -49,7 +50,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatInputModule,
     MatFormFieldModule,
     MatCardModule,
-    MatDialogModule
+    MatDialogModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
